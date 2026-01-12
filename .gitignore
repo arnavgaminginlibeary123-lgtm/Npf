@@ -1,0 +1,12 @@
+# Ignore local environment files
+.env
+__pycache__/
+*.pyc
+
+# Ignore local Streamlit secrets (use Cloud Secrets instead)
+.streamlit/secrets.toml
+
+# Ignore virtual environments
+venv/
+.venv/
+
